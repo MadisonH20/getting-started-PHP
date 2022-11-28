@@ -1,5 +1,5 @@
 MY_INSTANCE_NAME='my-app-instance'
-ZONE=us-central1-c
+ZONE=us-east1-c
 
 gcloud compute instances create $MY_INSTANCE_NAME \
     --image-family=ubuntu-1804-lts \
